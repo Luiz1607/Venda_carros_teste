@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.fundo{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	height: 10vh;
+	justify-content:flex-end;
+    background:rgb(0, 0, 0);
+     
+    
+}
+
+.navbar ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 30px;
+
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 22px;
+	font-family: Impact, Haettenschweiler, sans-serif;
+	color: rgb(255, 255, 255);
+    margin: 15px;
+    padding-right: 10px;
+   
+}
+
+.navbar li:hover {
+	transform: scale(1.3);
+	transition: 0.3;
+}
+
+.navbar a:hover {
+	color: rgb(189, 189, 189);
+}
+
+.container_car{
+    padding-bottom: 3%;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+.vehicle_type {
+    display:inline-block;
+    margin: 1em;
+    padding: 1em;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px -2px -2px 2px rgba(169, 169, 169, .4);
+    margin: 10px;
+    padding: 50px;
+}
+
+.vehicle_type img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+footer {
+    background-color: #ffffff;
+    text-align:center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0%;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.redes-sociais a:hover {
+    color: #ffffff;
+}
+
+.container_car img:hover{
+	transform: scale(1.4);
+	transition: 1s;
+	margin: 25px;
+}
+
+.social_icons{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    gap: 80px;
+}
+
+
+.logo{
+    height: 10vh;
+}
+
+.logo_fametro{
+    height: 10vh;
+    margin-right:62rem;
+}
+
+.detalhes{
+    color: black;
+}
